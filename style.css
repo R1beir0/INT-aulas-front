@@ -1,0 +1,63 @@
+/*Estilo: para centralizar e estilizar a página*/
+body {
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*familia da fonte*/
+
+   background-color:rgba(73, 10, 10, 0.908);/*Cor de fundo*/
+
+   display:flex; /*flexbox(auxilia na disposição de conteúdo)*/
+
+justify-content: center; /*justificando ao centro*/
+align-items: center;
+
+height: 100vh;/*definindo altura (100 vh significa que vai ocupar toda a extensão da nossa pag*/
+
+margin:0;
+}
+
+
+.container{
+   background-color:rgb(150, 134, 134); /*cor de fundo do container*/
+
+    padding:50px; /*preenchimento*/
+
+    border-radius: 10px; /*borda arredondada*/ 
+
+    box-shadow: 0px 0px 10px; /*Sombra na borda*/
+
+    text-align: center;
+    width: 300px;
+}
+
+
+h1{
+    font-size: 24px; /*tamanho da fonte do título de nível 1*/
+
+    margin-bottom: 20px; /*margem do nosso h1 em relação a parte inferior*/ 
+}
+
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /*estilo da borda: 1px= espessura da linha| solid:estilo da linha(linha solida)| #ddd = cor */
+    border-radius: 5px;
+}
+
+
+button {
+    width: 60%;
+    padding: 12px;
+    background-color: rgb(85, 3, 3); /*cor do botão*/
+    color: chocolate; /*cor da letra*/
+    cursor: pointer; /*muda o cursor ao se aproximar do botão*/
+}
+button:hover{
+    background-color: rgb(75, 51, 51); /*muda a cor de fundo do botão ao aproximar o cursor*/
+}
+
+
+#resultado{
+    margin-top: 20px;
+    font-size: 18px;
+}
