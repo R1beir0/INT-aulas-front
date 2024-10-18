@@ -1,0 +1,42 @@
+/*Estilios gerais para o corpo */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(168, 203, 192)
+}
+
+header{
+    background-color: #325555ee; /*cor de fundo do cabeçalho*/
+    color: rgb(0, 0, 0); /*cor das letras do cabeçalho*/ 
+    padding: 20px; /*preenchimento do cabeçalho*/
+    text-align: center; /*alinhando o texto dentro do cabeçalho*/
+}
+
+/* Estilizando a navegação*/
+nav{
+    background-color: rgb(87, 141, 136);
+    color: rgb(8, 61, 61);
+    padding: 10px;
+}
+
+nav ul{
+    /* Remove os marcadores da lista*/
+    list-style-type: none;
+    padding: 0%;
+    display: flex;
+    /* Exibe os itens da lista horizontalmente*/
+    justify-content: center;
+}
+
+nav ul li{
+margin: 0 15px; /*espaçamento entre os itens*/
+}
+
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none; /* remove o sublinhado dos links*/
+    transition: color 0.3s; /*transição suave para hover*/
+}
+nav ul li a:hover{
+    color: black; /*hover muda a cor quando aproxima o cursor*/
+    
+}
